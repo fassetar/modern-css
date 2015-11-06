@@ -1,3 +1,2 @@
 # modernstrap
-Microsoft Metro design flavored bootstrap!
- 
+Microsoft Modern UI (Metro styled) design flavored bootstrap!
