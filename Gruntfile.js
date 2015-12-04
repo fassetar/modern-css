@@ -49,8 +49,8 @@ module.exports = function (grunt) {
 					fast: false
 				},
 				files: {                      
-					  src: 'src/modernstrap.scss',
-					  dest: 'test/css/modernstrap.css'
+					  src: 'src/aspnet.scss',
+					  dest: 'test/css/aspnet.css'
 				}
 			}
 		},
