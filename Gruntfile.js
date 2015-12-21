@@ -78,7 +78,7 @@ module.exports = function (grunt) {
 	});
 
 	grunt.registerTask('test', ['uglify']);
-	grunt.registerTask('build', ['flavorstrap']);
+	grunt.registerTask('build', ['flavorstrap', 'gh-pages']);
 	/* For Development */
 	grunt.registerTask('default', [
 		'flavorstrap',

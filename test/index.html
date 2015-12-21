@@ -7,31 +7,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/> 
   	<meta name="viewport" content="width=device-width, initial-scale=1"/>
   	<meta name="application-name" content="Microsoft ASP.NET Site"/>  	    
-	<link href='css/modernstrap.css' rel="stylesheet" type="text/css" media="all" />   	
-	<link href='//i2.asp.net/umbraco-beta-css/home.min.css?cdn_id=2015-10-16-001' rel="stylesheet" type="text/css" media="all" />   	
-
-    <!--[if lte IE 7]>
-      <link href='//i1.asp.net/umbraco-beta-css/lteIE7.min.css?cdn_id=2015-10-16-001' rel="stylesheet" type="text/css" media="screen" />
-    <![endif]-->
-	<!--[if lte IE 9]>
-      <script src='//i2.asp.net/umbraco-beta-scripts/html5.js?cdn_id=2015-10-16-001' type="text/javascript"></script>
-    <![endif]-->
-    <link href='//i2.asp.net/images/content/favicon.ico?cdn_id=2015-10-16-001' rel="shortcut icon" />
-	<link rel="alternate" type="application/rss+xml" title="Latest ASP.NET Content" href="//www.asp.net/rss/content" />
-	  
-	<!-- Anti-Clickjacking script -->
-	<style id="antiClickjack">body{display:none !important;}</style>
-	<script type="text/javascript">
-		if (self === top) {
-			var antiClickjack = document.getElementById("antiClickjack");
-			antiClickjack.parentNode.removeChild(antiClickjack);
-			} else {
-			top.location = self.location;
-		}
-	 </script>	  
+	<link href='css/aspnet.css' rel="stylesheet" type="text/css" media="all" />   		
   </head>
-  <body class=''>
-    
+  <body>    
     <div class='allcontent home'>
     <header>
       <a href="//www.asp.net/" id="logo" data-s-object-id="logo">The ASP.NET Site</a><form method="post" id="search-query-masthead" action="//www.asp.net/search"><div class="search-header"><input type="text" class="search-input input-common" value="Search ASP.NET" data-uitext="Search ASP.NET" data-uitype="autoreset" name="searchterm" /><input type="submit" name="submit" class="search-submit" value="" title="Search" /></div></form>
@@ -74,13 +52,13 @@
 	<div class="col">
 	  <h2>ONE ASP.NET</h2>
 		<ul>
-                         <li><a href="http://blogs.msdn.com/b/webdev/archive/2015/07/20/announcing-asp-net-4-6-and-asp-net-5-beta-5-in-visual-studio-2015-release.aspx" data-s-object-id="learn">Latest Release (2013.5)</a></li>
-                         <li><a href="//www.asp.net/aspnet" data-s-object-id="learn">Common ASP.NET Features</a></li>
-                         <li><a href="//www.asp.net/identity" data-s-object-id="learn">Security / Identity</a></li>
-                         <li><a href="//www.asp.net/visual-studio" data-s-object-id="learn">Tooling/IDE</a></li>
-                         <li><a href="//www.asp.net/aspnet/overview/deployment" data-s-object-id="learn">Deployment</a></li>
-                         <li><a href="//www.asp.net/vnext" data-s-object-id="learn">Future Release (ASP.NET 5)</a></li>
-						 </ul>
+		 <li><a href="http://blogs.msdn.com/b/webdev/archive/2015/07/20/announcing-asp-net-4-6-and-asp-net-5-beta-5-in-visual-studio-2015-release.aspx" data-s-object-id="learn">Latest Release (2013.5)</a></li>
+		 <li><a href="//www.asp.net/aspnet" data-s-object-id="learn">Common ASP.NET Features</a></li>
+		 <li><a href="//www.asp.net/identity" data-s-object-id="learn">Security / Identity</a></li>
+		 <li><a href="//www.asp.net/visual-studio" data-s-object-id="learn">Tooling/IDE</a></li>
+		 <li><a href="//www.asp.net/aspnet/overview/deployment" data-s-object-id="learn">Deployment</a></li>
+		 <li><a href="//www.asp.net/vnext" data-s-object-id="learn">Future Release (ASP.NET 5)</a></li>
+		</ul>
 	</div>
   </div>
       </li><li><a href="//www.asp.net/hosting" data-s-object-id="navbar">
@@ -88,8 +66,7 @@
     </a></li><li><a href="//www.asp.net/downloads" data-s-object-id="navbar">
       Downloads
     </a></li><li class="nav-main-solutions"><a href="javascript:;" class="communitypulldown">
-			Community <span class="icon-dropdown"></span></a>
-	  
+			Community <span class="icon-dropdown"></span></a>	  
 		<div class="dropdown-community">
 			<div class="col">
 				<ul>
@@ -123,8 +100,7 @@
 		</div>
 
 	  </li><li><a href="//forums.asp.net/" data-s-object-id="navbar">Forums</a></li><li><a href="//www.asp.net/contact-us" data-s-object-id="navbar">Help</a></li></ul></nav><div class="social"><span>Follow us on<a href="https://jabbr.net/#/rooms/Lobby" class="jabbr" title="JabbR"></a><a href="https://www.facebook.com/asp.net" class="facebook" title="Facebook"></a><a href="http://twitter.com/aspnet" class="twitter" title="Twitter"></a></span></div>
-    </header>
-        
+    </header>        
   <div class="content home">
     <div class="large-slideshow clearfix">
         <div class="slideshow-chunk">
@@ -252,30 +228,7 @@
 </ul>
 </div>
     </div>    
-    <div class="modal modal-webpi" style="display:none;"><a href="javascript:;" class="modal-close" data-s-object-id="webpi (close)">✖</a><div class="modal-contents"><h2>Installs powered by the Microsoft Web Platform Installer</h2><p>The product(s) you are about to install leverage the Web Platform Installer (WebPI) for installation. By downloading and using the Web Platform Installer (WebPI), you agree to the <a href="http://go.microsoft.com/fwlink/?LinkId=251729">license terms</a> and <a href="http://go.microsoft.com/fwlink/?LinkId=251732">privacy statement</a> for WebPI. This installer will contact Microsoft over the Internet to retrieve product information.  WebPI uses the Microsoft Customer Experience Improvement Program (CEIP), which is turned on by default, see <a href="http://go.microsoft.com/fwlink/?LinkId=251732">privacy statement</a> for more information.  Some of the Microsoft software obtained through WebPI may use CEIP. To view which software uses CEIP, see <a href="http://go.microsoft.com/?LinkID=9816722">here</a>.</p><a href="javascript:;" class="btn-install" data-s-object-id="webpi (install)">Accept and install</a></div></div><div class="modal-cover" style="display:none;"></div>
-	
-<input type="hidden" id="meta-contentType" value="Home" />
-<input type="hidden" id="meta-contentLiveDate" value="2011-02-01" />
-
-    
-      <script src='//i1.asp.net/umbraco-beta-scripts/jquery-1.7.2.min.js?cdn_id=2015-10-16-001' type="text/javascript"></script>
-      <script type="text/javascript">$.ajaxSetup({ cache: false });var omni_guid="703a25fb-0345-490a-a442-b2e9dbc1f789";</script>
-      
-  <script type="text/javascript">var s=document.createElement('script');s.type='text/javascript';s.src='//i2.asp.net/umbraco-beta-scripts/prod-home.min.js?cdn_id=2015-10-16-001';document.body.appendChild(s);</script>
-
-    <script type="text/javascript">if ((Math.floor(Math.random()*100))<5){$.getScript("/scripts/prod-survey.min.js?cdn_id=2015-10-16-001");}</script>
-    <noscript><a href="http://www.omniture.com" title="Web Analytics"><img src="//msstonojsaspnet.112.2O7.net/b/ss/msstonojsaspnet/1/H.20.2--NS/0" height="1" width="1" alt="omni" /></a></noscript>
-	<noscript><img alt="" width="1" height="1" src="//c.microsoft.com/trans_pixel.aspx"/></noscript>
-	
-	<!-- <script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-61337531-1', 'auto');
-		ga('send', 'pageview');
-	</script> -->
-	
+    <div class="modal modal-webpi" style="display:none;"><a href="javascript:;" class="modal-close" data-s-object-id="webpi (close)">✖</a><div class="modal-contents"><h2>Installs powered by the Microsoft Web Platform Installer</h2><p>The product(s) you are about to install leverage the Web Platform Installer (WebPI) for installation. By downloading and using the Web Platform Installer (WebPI), you agree to the <a href="http://go.microsoft.com/fwlink/?LinkId=251729">license terms</a> and <a href="http://go.microsoft.com/fwlink/?LinkId=251732">privacy statement</a> for WebPI. This installer will contact Microsoft over the Internet to retrieve product information.  WebPI uses the Microsoft Customer Experience Improvement Program (CEIP), which is turned on by default, see <a href="http://go.microsoft.com/fwlink/?LinkId=251732">privacy statement</a> for more information.  Some of the Microsoft software obtained through WebPI may use CEIP. To view which software uses CEIP, see <a href="http://go.microsoft.com/?LinkID=9816722">here</a>.</p><a href="javascript:;" class="btn-install" data-s-object-id="webpi (install)">Accept and install</a></div></div><div class="modal-cover" style="display:none;"></div>	
+      <script src='//i1.asp.net/umbraco-beta-scripts/jquery-1.7.2.min.js?cdn_id=2015-10-16-001' type="text/javascript"></script>        
   </body>
 </html>  
