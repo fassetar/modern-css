@@ -45,7 +45,8 @@ module.exports = function (grunt) {
 		flavorstrap: {			
 			target: {
 				options: {
-					debug: false,
+				    debug: false,
+				    includePaths: ['node_modules/font-awesome/scss/'],
 					fast: false
 				},
 				files: {                      
