@@ -88,11 +88,12 @@ module.exports = function (grunt) {
 		}
 	});
 
-	grunt.registerTask('test', ['uglify']);
+	grunt.registerTask('test', ['uglify']);    
 	grunt.registerTask('pre-build', ['uglify', 'flavorstrap']);
 	grunt.registerTask('build', ['flavorstrap', 'gh-pages']);
 	/* For Development */
 	grunt.registerTask('default', [
+        // Issue don't forget to pre-build
         'connect:livereload',        
 		'watch'
 	]);
