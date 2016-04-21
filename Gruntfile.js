@@ -29,7 +29,7 @@ module.exports = function (grunt) {
 					" * pkg.name\n" +
 					" * @author pkg.author\n" +
 					" * @version pkg.version\n" +
-					" * Copyright 2015.\n" +
+					" * Copyright "+ new Date().getFullYear() + "\n" +
 					" */\n"
 		},
 		uglify: {
@@ -50,8 +50,8 @@ module.exports = function (grunt) {
 					fast: false
 				},
 				files: {                      
-					  src: 'src/aspnet.scss',
-					  dest: 'test/css/aspnet.css'
+					  src: 'src/work.scss',
+					  dest: 'test/css/work.css'
 				}
 			}
 		},
@@ -71,7 +71,7 @@ module.exports = function (grunt) {
 		        tasks: ['htmlmin']
 		    },
 		    flavorstrap: {
-				files:  'src/aspnet.scss',
+				files:  'src/*.scss',
                 tasks: ['flavorstrap']
 		    },
 		    livereload: {
