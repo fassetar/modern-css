@@ -5,7 +5,7 @@
   },
   "description": "Microsoft Metro design with bootstrap!",
   "devDependencies": {
-    "flavorstrap": "lastest",
+    "flavorstrap": "^0.1.7",
     "font-awesome": "^4.5.0",
     "grunt": "^1.0.1",
     "grunt-contrib-connect": "^1.0.0",
