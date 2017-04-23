@@ -1,5 +1,5 @@
-# modernstrap
-[![devDependency Status](https://david-dm.org/fassetar/modern-css/dev-status.svg)](https://david-dm.org/fassetar/modern-css#info=devDependencies)
+# modern-ui
+[![devDependency Status](https://david-dm.org/fassetar/modern-ui/dev-status.svg)](https://david-dm.org/fassetar/modern-ui#info=devDependencies)
 
 # Requirements
 *none?* for now at least
