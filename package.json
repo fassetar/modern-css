@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "modernstrap",
+  "name": "modern-ui",
   "repository": {
     "type": "git",
     "url": "https://github.com/fassetar/modernstrap.git"
