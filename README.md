@@ -11,3 +11,12 @@
 [Metro UI](http://metroui.org.ua/)
 
 [Bootwatch Yeti Style](https://bootswatch.com/yeti/)
+
+# Notes
+- metro styled alert goes all out on both side but not vertically when its a security alert.
+- otherwise its just like the other modals
+- http://modernuiicons.com/
+- Need a tour button
+- http://www.slideshare.net/JakeTaylor1/windows-8-modern-ui-design-concepts
+- https://en.wikipedia.org/wiki/Metro_(design_language)
+- https://icons8.com/web-app/for/win10/login
